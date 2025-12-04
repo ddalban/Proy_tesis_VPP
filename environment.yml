@@ -1,0 +1,24 @@
+name: vpp_env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cudatoolkit
+  - numpy
+  - opencv
+  - matplotlib
+  - scikit-image
+  - scikit-learn
+  - pip
+  - pip:
+      - ultralytics
+      - onnxruntime
+      - pyrealsense2
+      - jupyterlab
+      - tqdm
