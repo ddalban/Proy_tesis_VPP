@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+
+
+
+# Datos pesados
+data/
+datasets/
+*.tar.gz
+*.zip
+*.pth
+*.pt
+
+
